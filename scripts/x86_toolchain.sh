@@ -174,3 +174,19 @@ if [ "$GDB" == "True" ]; then # if the statement is true, the program will load 
         gdb "${gdb_params[@]}" $OUTPUT_FILE # file will run in GDB terminal with entered paramenters
 
 fi
+
+#GENERAL DOCUMENTATION
+
+git add # THIS COMMAND UPDATES THE INDEX USING THE CURRENT CONTENT FOUND IN THE WORKING TREE.
+          [--verbose | -v] [--dry-run | -n] [--force | -f] [--interactive | -i] [--patch | -p]
+	  [--edit | -e] [--[no-]all | --[no-]ignore-removal | [--update | -u]] [--sparse]
+	  [--intent-to-add | -N] [--refresh] [--ignore-errors] [--ignore-missing] [--renormalize]
+	  [--chmod=(+|-)x] [--pathspec-from-file=<file> [--pathspec-file-nul]]
+	  [--] [<pathspec>…​] 
+
+git help #THIS COMMAND GIVES A LIST OF ARGUMENTS THAT CAN BE USED WITH GIT COMMAND AND A BRIEF EXPLANATION
+         #OF THEIR PURPOSE. FOR EXAMPLE IF THE ARGUMENT '--all' OR '-a' IS GIVEN, ALL AVAILABLE COMMANDS
+         #ARE PRINTED ON THE STANDARD OUTPUT.
+         # MORE SPECIFIC INFORMATION ABOUT 'git help' COMMAND CAN BE FOUND BY TYPING 'git help --help'
+        [-a|--all] [--[no-]verbose] [--[no-]external-commands] [--[no-]aliases][[-i|--info] [-m|--man]
+        [-w|--web]][<command>|<doc>][-g|--guides][-c|--config][--user-interfaces][--developer-interfaces]
